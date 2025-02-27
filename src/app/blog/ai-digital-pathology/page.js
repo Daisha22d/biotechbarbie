@@ -21,7 +21,7 @@ export default function BlogPost() {
   
           <h2 className="text-2xl font-semibold text-gray-800 mt-6">🚀 What This Means for the Future</h2>
           <p className="text-gray-600 mt-2">
-            AI-assisted pathology doesn’t replace human expertise but enhances it. With AI models handling repetitive tasks, 
+            AI-assisted pathology does not replace human expertise but enhances it. With AI models handling repetitive tasks, 
             pathologists can focus on complex cases, leading to **faster diagnoses and better patient care**.
           </p>
   
