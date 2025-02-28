@@ -5,10 +5,10 @@ export default function Home() {
         CelestDeniz AI 
       </h1>
       <p className="text-xl text-gray-700 mt-4 text-center">
-        Merging AI & Digital Pathology to revolutionize biotech.
+      Where Data Becomes Discovery—AI in Healthcare
       </p>
       <p className="text-md text-gray-600 mt-2">
-      Advancing AI in Healthcare | Machine Learning M.S. Student
+      Turning Data into Cures—One Algorithm at a Time | Machine Learning M.S. Student
       </p>
     </main>
   );
