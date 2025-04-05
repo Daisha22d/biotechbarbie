@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Hero() {
   return (
     <section className="text-center py-20">
@@ -8,10 +10,34 @@ export default function Hero() {
         The Art of Data. The Science of Sight.
       </p>
       <div className="grid grid-cols-2 gap-4">
-        <img src="/histoclassic.png" alt="Data Visual 1" className="rounded-lg shadow-md" />
-        <img src="/multhisto.png" alt="Data Visual 2" className="rounded-lg shadow-md" />
-        <img src="/residualhisto.png" alt="Data Visual 3" className="rounded-lg shadow-md" />
-        <img src="/residualvsfitted.png" alt="Data Visual 4" className="rounded-lg shadow-md" />
+        <Image
+          src="/histoclassic.png"
+          alt="Data Visual 1"
+          width={500} // Replace with actual width
+          height={300} // Replace with actual height
+          className="rounded-lg shadow-md"
+        />
+        <Image
+          src="/multhisto.png"
+          alt="Data Visual 2"
+          width={500} // Replace with actual width
+          height={300} // Replace with actual height
+          className="rounded-lg shadow-md"
+        />
+        <Image
+          src="/residualhisto.png"
+          alt="Data Visual 3"
+          width={500} // Replace with actual width
+          height={300} // Replace with actual height
+          className="rounded-lg shadow-md"
+        />
+        <Image
+          src="/residualvsfitted.png"
+          alt="Data Visual 4"
+          width={500} // Replace with actual width
+          height={300} // Replace with actual height
+          className="rounded-lg shadow-md"
+        />
       </div>
     </section>
   );
